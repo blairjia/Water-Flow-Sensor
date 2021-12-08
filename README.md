@@ -18,18 +18,18 @@ blah
 
 This section should be used to described how you accomplished your goals! Here you can describe the devices/peripherals/libraries that you used. If you used existing projects as inspiration or building blocks (cite them!), include in this section a description about how you incorporated these projects, what existing code you used and what you added/modified, and clearly identify how your project differs from an existing one.
 
-**Flow Sensor
-**
+###### Flow Sensor
+
 
 Flow sensor go zoom 
 
-**Adafruit FeatherWing OLED 
-**
+###### Adafruit FeatherWing OLED 
+
 
 OLED screen go beep boop
 
-**Thingspeak
-**
+###### Thingspeak
+
 
 Thingspeak goes woosh
 
