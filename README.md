@@ -2,7 +2,7 @@
 Water Flow Sensor Project for Embedded Systems
 Blair Jia and Zayn Makdessi - Fall 2021
 
-# Introduction
+## Introduction
 
 Introduction section. In this section you should provide a general introduction to your project (what is that you are trying to accomplish - goal), place it in the context of the course, and explain why you chose this particular project (motivation). In the introduction, you should also cite the sources that you consulted during the research and development phase of your project (the list will go at the end in the references section).
 
@@ -10,31 +10,49 @@ This project is a culmination of all of the hardware based material we have lear
 
 Our project allows users to monitor their water usage of certain faucets, taps, hoses, or small pipes, displaying the amount of water used. For the forgetful, if a tap is left on for too long, a buzzer warns them about their water usage, reminding them of the importance of saving water. The internet savy will also be able to go online, and find visualizations of their water usage, to see their trends.
 
-# Methods
+INSERT DIAGRAM HERE...
+
+## Methods
 blah blah
 blah
 
-# Results
+This section should be used to described how you accomplished your goals! Here you can describe the devices/peripherals/libraries that you used. If you used existing projects as inspiration or building blocks (cite them!), include in this section a description about how you incorporated these projects, what existing code you used and what you added/modified, and clearly identify how your project differs from an existing one.
+
+###Flow Sensor
+
+Flow sensor go zoom 
+
+###Adafruit FeatherWing OLED 
+
+OLED screen go beep boop
+
+###Thingspeak
+
+Thingspeak goes woosh
+
+
+
+## Results
 blah blah
 blah
 
-# Accessibility
+## Accessibility
 blah blah
 blah
 
-# Ethical Implications
+## Ethical Implications
 blah blah
 blah
 
-# Schedule
+## Schedule
 blah blah
 blah
 
-# Issues
+## Issues
 blah blah
 blah
 
-# Future Work
+## Future Work
 blah blah
 blah
 
