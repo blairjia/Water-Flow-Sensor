@@ -50,8 +50,9 @@ This issue comes from an anecdote from Blair. When he was in fourth grade, he wi
 
 
 ## Schedule
-blah blah
-blah
+
+ATTACH SCHEDULE ABOVE...
+As you can see above, our plan of attack was very different than what we ended up doing. We had scheduled so checkpoints were weekly set goals to help manage our time. However, as you can see by the actual schedule of when we got our checkpoints complete, the vast majority of the project was done in a week. We think this reflects on just how busy college students are with deadlines, and although we did not follow our schedule timewise or order wise, we still used it as a checkpoint. One of the reasons why we also didn't go in order, was because that for some checkpoints, we would run into some problems, and instead of struggling and not making any progress, we would move on because we realized that a lot of steps were actually independent from each other.   
 
 ## Issues
 blah blah
