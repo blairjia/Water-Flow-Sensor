@@ -28,8 +28,7 @@ Thingspeak goes woosh
 
 
 ## Results
-blah blah
-blah
+Potato
 
 ## Accessibility
 blah blah
