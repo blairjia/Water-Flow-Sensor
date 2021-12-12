@@ -56,8 +56,6 @@ blah blah
 blah
 
 ## Future Work
-blah blah
-blah
 
 ###### Buzzer
 Use the buzzer for more things, like playing a melody in certain situations
@@ -74,7 +72,7 @@ Save data and upload weekly, monthly, and yearly averages
 
 
 
-##Far Future
+## Far Future
 
 ###### Sustainability Office at Middlebury
 When we brought out the ideas of this project to Professor Vaccari, he suggested for us to contact the Sustainability Office at Middlebury, to tell them about our project planning. After some careful consideration, we realized that we probably wanted something tangible before contacting the office about anything. Now that we have a proof of concept, a long term goal is to set water flow systems such as these ones up in places around campus, especially dorms, to further help bring Middlebury into a greener future. We are currently in the process of contacting the office, just to see the ideas and logistics a project such as this one has to go from a concept to an actual product. Look out for water flow sensors across the Middlebury campus! 
