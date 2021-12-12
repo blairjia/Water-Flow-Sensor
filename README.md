@@ -19,18 +19,12 @@ blah
 This section should be used to described how you accomplished your goals! Here you can describe the devices/peripherals/libraries that you used. If you used existing projects as inspiration or building blocks (cite them!), include in this section a description about how you incorporated these projects, what existing code you used and what you added/modified, and clearly identify how your project differs from an existing one.
 
 ###### Flow Sensor
-
-
 Flow sensor go zoom 
 
 ###### Adafruit FeatherWing OLED 
-
-
 OLED screen go beep boop
 
 ###### Thingspeak
-
-
 Thingspeak goes woosh
 
 
@@ -44,8 +38,16 @@ blah blah
 blah
 
 ## Ethical Implications
-blah blah
-blah
+
+###### Privacy/Security
+When we first started out with this project, we really didn't think we would have any big security or privacy issues, as we thought the only data we would be seeing would be the water usage. However, as the project went on, we started to think just how problematic this could be if someone looking to cause harm was able to access this information. For private use, some person might be able to find out when the water in the household is being used, to track morning routines, or to find out implicitly when people might not be home, or might be asleep. This is a huge violation of privacy and security, and could also lead to a whole host of other security breaches. We have to make sure that our data is fully secured for the sake of our future users.
+
+###### E-Waste
+Our project is not very expensive to implement here in the US, nor are the individual parts scarce, nor is the wiring very difficult. The problem with this, is that because of the wide avalibility and cheap parts, in case anything gets broken, people might not feel compelled to grab a screwdriver to try to fix the issue, and just toss the broken parts for new parts. This produces a lot of unnecessary waste, especially because usually, fixing these issues could be very simple financially, just requiring a bit of know how on the actual parts. 
+
+###### Highscore/Tomfoolery
+This issue comes from an anecdote from Blair. When he was in fourth grade, he witnessed two eighth graders walk up to his school's newly installed water bottle filler machine, brand new with a counter that showed how much water was being used. He watched as these older students place tape over the sensor, to keep the water bottle filler running, just so they could see how high of a score they could get the counter to go. This may be an issue for our project as we have a screen which shows helpful information, INCLUDING a total amount used, and depending on where we implement the system, there could be other immature pranksters who might do the same thing that Blair witnessed. This is problematic because the whole purpose of our implementation was to promote water saving, but this type of action could derail our whole entire project's purpose.
+
 
 ## Schedule
 blah blah
