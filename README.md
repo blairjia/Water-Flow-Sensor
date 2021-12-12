@@ -59,6 +59,32 @@ blah
 blah blah
 blah
 
+###### Buzzer
+Use the buzzer for more things, like playing a melody in certain situations
+
+###### HTTP vs MQTT
+Change from http to mqtt calls for some things
+Send users information once a month (or any set duration) about their consumption
+
+
+###### Real Time Updates
+Real time updates, with a subscription to ThingSpeak
+
+Save data and upload weekly, monthly, and yearly averages
+
+
+
+##Far Future
+
+###### Sustainability Office at Middlebury
+When we brought out the ideas of this project to Professor Vaccari, he suggested for us to contact the Sustainability Office at Middlebury, to tell them about our project planning. After some careful consideration, we realized that we probably wanted something tangible before contacting the office about anything. Now that we have a proof of concept, a long term goal is to set water flow systems such as these ones up in places around campus, especially dorms, to further help bring Middlebury into a greener future. We are currently in the process of contacting the office, just to see the ideas and logistics a project such as this one has to go from a concept to an actual product. Look out for water flow sensors across the Middlebury campus! 
+
+###### Smart Home
+Another major future goal we had, was to connect with Smart Home devices such as Amazon Alexa or Google Nest to help monitor users' usage across the home, whether that be a sensor on the main water pipe, or several sensors spread out to monitor individiual rooms. We think that it would be a great addition to be able to easily access data to see how the users are doing, but we understand it is a long journey to get third party apps and devices hooked up with these already established devices. A dream of ours would be able ot ask Alexa how much water has the user used in the past day, or the Google Nest displaying warnings or messages of unusual water useage.   
+
+
+
+
 
 
 
