@@ -28,6 +28,9 @@ ThingSpeak is a platform service that allows you to visualize live data in the c
 We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to notify the user when a certain amount of time has passed with the water on to remind them to not waste water.
 
 
+## Physical Setup
+
+
 ## Results
 Potato
 
