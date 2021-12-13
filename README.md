@@ -31,6 +31,7 @@ Thingspeak goes woosh
 Potato
 
 (Calibration of Sensor)
+
 <img width="454" alt="Screen Shot 2021-12-12 at 9 00 36 PM" src="https://user-images.githubusercontent.com/86205354/145741704-1919c8fd-9896-4313-b1ed-e85cbe6ba79d.png">
 
 
@@ -59,6 +60,7 @@ blah blah
 blah
 
 (Issues with Flow sensor)
+
 <img width="350" alt="Screen Shot 2021-12-12 at 9 02 31 PM" src="https://user-images.githubusercontent.com/86205354/145741410-2d514011-3fdd-4625-a49f-95572b59b2fb.png">
 
 
@@ -71,7 +73,9 @@ The arduino library of Thingspeak, actually uses http calls when communicating w
 ###### Real Time Updates
 Right now under the free version of Thingspeak, we can only send data every 15 seconds, which is not very good for short bursts of data.(especially for a value like flow rate) An example of this could be someone using the tap for less than 15 seconds.  An upgraded version of ThingSpeak would enable us to send data every second, which would also help us reach another goal of compiling data together to send user information once a month about their consumption. Thingspeak has an alerts API, and we could use that to notify users via email their consumption rates at set time intervals (Weekly, monthly, or yearly).
 
-(An example of Thingspeak Alerts API)<img width="479" alt="Screen Shot 2021-12-12 at 9 02 22 PM" src="https://user-images.githubusercontent.com/86205354/145741628-183b687c-ebff-4688-8be5-5dc8dfce81df.png">
+(An example of Thingspeak Alerts API)
+
+<img width="479" alt="Screen Shot 2021-12-12 at 9 02 22 PM" src="https://user-images.githubusercontent.com/86205354/145741628-183b687c-ebff-4688-8be5-5dc8dfce81df.png">
 
 ## Far Future
 
