@@ -20,10 +20,10 @@ We chose [this](https://learn.adafruit.com/adafruit-128x64-oled-featherwing?view
 **Water Flow Sensor - YF-S201**\
 This [water flow sensor](https://www.hobbytronics.co.uk/yf-s201-water-flow-meter) is the heart of our project. This water flow sensor uses the hall effect (measures magnetic field presence) to measure the flow of water. The way it measures the flow is that it has a piece of magnet on one of the arms of the cog that creates a magnetic field when it passes by the sensor. Each time the sensor detects the magnetic field, it sends a pulse to our microcontroller. We set the pin connected to it to input, and attached an interrupt on the rising edge of that pin. The amount of pulses in a set period of time determine the flow. 
 
-**ThingSpeak**
+**ThingSpeak**\
 ThingSpeak is a platform service that allows you to visualize live data in the cloud. Using the [WiFi library](https://www.arduino.cc/en/Reference/WiFi), we connected to the WiFi, then used the [ThingSpeak library](https://www.arduino.cc/reference/en/libraries/thingspeak/) to connect to our channel with our Channel_ID and Channel_API_key. We chose to use Thingspeak because it already had an Arduino library. Also, for the future it would allow us to use different analysis on the data we are collecting.
 
-**Piezo Buzzer**
+**Piezo Buzzer**\
 We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to notify the user when a certain amount of time has passed with the water on to remind them to not waste water.
 
 
