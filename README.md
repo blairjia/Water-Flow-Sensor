@@ -11,13 +11,13 @@ Our project allows users to monitor their water usage of certain faucets, taps, 
 INSERT DIAGRAM HERE...
 
 ## Methods
-**Adafruit HUZZAH32 – ESP32 Feather Board**
+**Adafruit HUZZAH32 – ESP32 Feather Board**\
 This was the [microcontroller](https://www.adafruit.com/product/3405) we used for this project. We chose to use it because of the in-built WiFi capabilities. It is also simple to use and it has a substantial number of GPIO pins. It was also very convenient to choose an OLED.
 
-**Adafruit 128x64 OLED FeatherWing**
+**Adafruit 128x64 OLED FeatherWing**\
 We chose [this](https://learn.adafruit.com/adafruit-128x64-oled-featherwing?view=all) OLED because it sits on top of the ESP32 Feather Board which makes our whole setup more compact. We used the arduino’s [wire library](https://www.arduino.cc/en/reference/wire) to communicate with the feather’s primary I2C bus. Adafruit’s [GFX library](https://learn.adafruit.com/adafruit-gfx-graphics-library) holds graphics functions for the display including text. The Adafruit [SH110X library](https://www.arduino.cc/reference/en/libraries/adafruit-sh110x/) is the OLED driver library for monochrome displays with SH1107 drivers.
 
-**Water Flow Sensor - YF-S201**
+**Water Flow Sensor - YF-S201**\
 This [water flow sensor](https://www.hobbytronics.co.uk/yf-s201-water-flow-meter) is the heart of our project. This water flow sensor uses the hall effect (measures magnetic field presence) to measure the flow of water. The way it measures the flow is that it has a piece of magnet on one of the arms of the cog that creates a magnetic field when it passes by the sensor. Each time the sensor detects the magnetic field, it sends a pulse to our microcontroller. We set the pin connected to it to input, and attached an interrupt on the rising edge of that pin. The amount of pulses in a set period of time determine the flow. 
 
 **ThingSpeak**
