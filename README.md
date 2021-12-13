@@ -10,6 +10,7 @@ Our project allows users to monitor their water usage of certain faucets, taps, 
 
 INSERT DIAGRAM HERE...
 
+
 ## Methods
 **Adafruit HUZZAH32 – ESP32 Feather Board**\
 This was the [microcontroller](https://www.adafruit.com/product/3405) we used for this project. We chose to use it because of the in-built WiFi capabilities. It is also simple to use and it has a substantial number of GPIO pins. It was also very convenient to choose an OLED.
@@ -25,7 +26,6 @@ ThingSpeak is a platform service that allows you to visualize live data in the c
 
 **Piezo Buzzer**\
 We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to notify the user when a certain amount of time has passed with the water on to remind them to not waste water.
-
 
 
 ## Results
@@ -68,12 +68,18 @@ Schedule:
 
 As you can see above, our plan of attack was very different than what we ended up doing. We had scheduled so checkpoints were weekly set goals to help manage our time. However, as you can see by the actual schedule of when we got our checkpoints complete, the vast majority of the project was done in a week. We think this reflects on just how busy college students are with deadlines, and although we did not follow our schedule timewise or order wise, we still used it as a checkpoint. One of the reasons why we also didn't go in order, was because that for some checkpoints, we would run into some problems, and instead of struggling and not making any progress, we would move on because we realized that a lot of steps were actually independent from each other.   
 
+
 ## Issues
 **Flow sensor:**\
 At the beginning of our project, we could not get a reading from our flow sensor. We connected an LED to the voltage divider and saw that current was flowing through the sensor, but we could not manage to get a reading. Eventually after testing for a while, we realized that although the datasheet says that the flow sensor needed 5 Volts minimum to function, we would only get a reading when we gave it 3.3 V and did not use a voltage divider for the output before connecting it to the feather.
 
 <img width="479" alt="Screen Shot 2021-12-12 at 9 02 22 PM" src="https://user-images.githubusercontent.com/86205354/145741628-183b687c-ebff-4688-8be5-5dc8dfce81df.png">
 
+**OLED:**\
+Our OLED was not displaying anything even though we copied the sample code from the arduino library. We then realized that in our setup of the display, we were accidentally specifying the width of the display as ***32*** instead of ***64***.
+
+**Buzzer:**\
+We struggled a lot to get our buzzer working. The main issue was figuring out how to send out a PWM to the buzzer. Eventually we found out that we had to use a bunch of **ledc** functions which made us realize that we cannot change the frequency of the PWM to change the sound.
 
 
 ## Future Work
