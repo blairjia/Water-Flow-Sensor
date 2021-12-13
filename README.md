@@ -30,6 +30,10 @@ Thingspeak goes woosh
 ## Results
 Potato
 
+(Calibration of Sensor)
+<img width="454" alt="Screen Shot 2021-12-12 at 9 00 36 PM" src="https://user-images.githubusercontent.com/86205354/145741704-1919c8fd-9896-4313-b1ed-e85cbe6ba79d.png">
+
+
 ## Accessibility
 To start off with our project, we had to make some assumptions to make a bass implementation. Our assumptions include that users have: the mobility to turn on/off the tap/shower/hose/etc, the ability to read, ability to access the internet, ability to access water from pipes, and the ability to have some sort of power source near the flow sensor. Since our implementation, some of our current issues relating to accessibility include the screen size and clarity, and the price.The Featherwing LCD is very convenient to work with our MCU, but it might not be the best in terms of accessibility as the display is rather small, leading to smaller characters getting displayed on the screen, but also the text is only in 1 color. This could lead to some problems with some users who might be visually impaired. The second main issue is price. Although our project parts were actually the cheapest out of all the projects this semester, and somewhere in the ballpark of 70$ USD is very reasonable for a technology such as this one, if we want to implement this system worldwide, we have to make it cheaper, to make it more affordable and hence accessible in poorer parts of the world.
 
@@ -54,6 +58,11 @@ As you can see above, our plan of attack was very different than what we ended u
 blah blah
 blah
 
+(Issues with Flow sensor)
+<img width="350" alt="Screen Shot 2021-12-12 at 9 02 31 PM" src="https://user-images.githubusercontent.com/86205354/145741410-2d514011-3fdd-4625-a49f-95572b59b2fb.png">
+
+
+
 ## Future Work
 
 ###### HTTP vs MQTT
@@ -62,8 +71,7 @@ The arduino library of Thingspeak, actually uses http calls when communicating w
 ###### Real Time Updates
 Right now under the free version of Thingspeak, we can only send data every 15 seconds, which is not very good for short bursts of data.(especially for a value like flow rate) An example of this could be someone using the tap for less than 15 seconds.  An upgraded version of ThingSpeak would enable us to send data every second, which would also help us reach another goal of compiling data together to send user information once a month about their consumption. Thingspeak has an alerts API, and we could use that to notify users via email their consumption rates at set time intervals (Weekly, monthly, or yearly).
 
-<img width="350" alt="Screen Shot 2021-12-12 at 9 02 31 PM" src="https://user-images.githubusercontent.com/86205354/145741410-2d514011-3fdd-4625-a49f-95572b59b2fb.png">
-(An example of Thingspeak Alerts API)
+(An example of Thingspeak Alerts API)<img width="479" alt="Screen Shot 2021-12-12 at 9 02 22 PM" src="https://user-images.githubusercontent.com/86205354/145741628-183b687c-ebff-4688-8be5-5dc8dfce81df.png">
 
 ## Far Future
 
