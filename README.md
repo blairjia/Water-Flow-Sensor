@@ -70,7 +70,7 @@ As you can see above, our plan of attack was very different than what we ended u
 
 ## Issues
 **Flow sensor:**\
-At the beginning of our project, we could not get a reading from our flow sensor. We connected an LED to the V<sub>out</sub> and saw that current was flowing through the sensor, but we could not manage to get a reading. Eventually after testing for a while, we realized that although the datasheet says that the flow sensor needed 5 Volts minimum to function, we would only get a reading when we gave it 3.3 V and did not use a voltage divider for the output before connecting it to the feather.
+At the beginning of our project, we could not get a reading from our flow sensor. We connected an LED to the voltage divider and saw that current was flowing through the sensor, but we could not manage to get a reading. Eventually after testing for a while, we realized that although the datasheet says that the flow sensor needed 5 Volts minimum to function, we would only get a reading when we gave it 3.3 V and did not use a voltage divider for the output before connecting it to the feather.
 
 <img width="479" alt="Screen Shot 2021-12-12 at 9 02 22 PM" src="https://user-images.githubusercontent.com/86205354/145741628-183b687c-ebff-4688-8be5-5dc8dfce81df.png">
 
