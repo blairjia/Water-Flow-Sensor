@@ -28,7 +28,6 @@ We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to noti
 
 
 
-
 ## Results
 Potato
 
