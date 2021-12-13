@@ -56,18 +56,11 @@ blah
 
 ## Future Work
 
-###### Buzzer
-Use the buzzer for more things, like playing a melody in certain situations
-
 ###### HTTP vs MQTT
-Change from http to mqtt calls for some things
-Send users information once a month (or any set duration) about their consumption
-
+The arduino library of Thingspeak, actually uses http calls when communicating with the device and the online server, which we didn’t really know what it meant until mqtt was introduced to us in class after the implementation. We realized that for our usage, http calls were not nearly as efficient as mqtt calls, and that is something we want to switch to in the coming future.
 
 ###### Real Time Updates
-Real time updates, with a subscription to ThingSpeak
-
-Save data and upload weekly, monthly, and yearly averages
+Right now under the free version of Thingspeak, we can only send data every 15 seconds, which is not very good for short bursts of data.(especially for a value like flow rate) An example of this could be someone using the tap for less than 15 seconds.  An upgraded version of ThingSpeak would enable us to send data every second, which would also help us reach another goal of compiling data together to send user information once a month about their consumption. Thingspeak has an alerts API, and we could use that to notify users via email their consumption rates at set time intervals (Weekly, monthly, or yearly).
 
 
 
