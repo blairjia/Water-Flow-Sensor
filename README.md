@@ -31,8 +31,7 @@ Thingspeak goes woosh
 Potato
 
 ## Accessibility
-blah blah
-blah
+To start off with our project, we had to make some assumptions to make a bass implementation. Our assumptions include that users have: the mobility to turn on/off the tap/shower/hose/etc, the ability to read, ability to access the internet, ability to access water from pipes, and the ability to have some sort of power source near the flow sensor. Since our implementation, some of our current issues relating to accessibility include the screen size and clarity, and the price.The Featherwing LCD is very convenient to work with our MCU, but it might not be the best in terms of accessibility as the display is rather small, leading to smaller characters getting displayed on the screen, but also the text is only in 1 color. This could lead to some problems with some users who might be visually impaired. The second main issue is price. Although our project parts were actually the cheapest out of all the projects this semester, and somewhere in the ballpark of 70$ USD is very reasonable for a technology such as this one, if we want to implement this system worldwide, we have to make it cheaper, to make it more affordable and hence accessible in poorer parts of the world.
 
 ## Ethical Implications
 
