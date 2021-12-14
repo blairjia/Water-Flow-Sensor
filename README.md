@@ -32,7 +32,12 @@ We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to noti
 
 
 ## Results
-Potato
+
+(Our Water Sensor in action! Note: for this demonstratation, the buzzer was set to buzz at 10 seconds to speed the demo up, and waste less water.)
+
+https://user-images.githubusercontent.com/86205354/146096754-285e46df-c7a4-4af1-a54d-5220f02ecf40.mp4
+
+
 
 (Calibration of Sensor)
 
