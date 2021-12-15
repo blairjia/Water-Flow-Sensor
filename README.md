@@ -8,7 +8,9 @@ This project is a culmination of all of the hardware based material we have lear
 
 Our project allows users to monitor their water usage of certain faucets, taps, hoses, or small pipes, displaying the amount of water used. For the forgetful, if a tap is left on for too long, a buzzer warns them about their water usage, reminding them of the importance of saving water. The internet savy will also be able to go online, and find visualizations of their water usage, to see their trends.
 
-INSERT DIAGRAM HERE...
+
+![IMG_0232](https://user-images.githubusercontent.com/86205354/146097877-82f65eb7-a99e-49b0-80d3-0358b1429acb.jpg)
+
 
 
 ## Methods
@@ -35,7 +37,8 @@ We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to noti
 
 (Our Water Sensor in action! Note: for this demonstratation, the buzzer was set to buzz at 10 seconds to speed the demo up, and waste less water.)
 
-https://user-images.githubusercontent.com/86205354/146096754-285e46df-c7a4-4af1-a54d-5220f02ecf40.mp4
+https://user-images.githubusercontent.com/86205354/146097687-5dd2280a-e399-45fc-b236-1cf63d566ceb.mp4
+
 
 
 
@@ -46,6 +49,11 @@ https://user-images.githubusercontent.com/86205354/146096754-285e46df-c7a4-4af1-
 
 ## Accessibility
 To start off with our project, we had to make some assumptions to make a bass implementation. Our assumptions include that users have: the mobility to turn on/off the tap/shower/hose/etc, the ability to read, ability to access the internet, ability to access water from pipes, and the ability to have some sort of power source near the flow sensor. Since our implementation, some of our current issues relating to accessibility include the screen size and clarity, and the price.The Featherwing LCD is very convenient to work with our MCU, but it might not be the best in terms of accessibility as the display is rather small, leading to smaller characters getting displayed on the screen, but also the text is only in 1 color. This could lead to some problems with some users who might be visually impaired. The second main issue is price. Although our project parts were actually the cheapest out of all the projects this semester, and somewhere in the ballpark of 70$ USD is very reasonable for a technology such as this one, if we want to implement this system worldwide, we have to make it cheaper, to make it more affordable and hence accessible in poorer parts of the world.
+
+(As briefly mentioned above, the ability to have a power source near the sensor is very important, and you can see below how much we have to stretch to power the device when a power source is further away.)
+
+![IMG_0233](https://user-images.githubusercontent.com/86205354/146097913-d4ffdf30-aef8-45b1-bcf7-df566a45ccc9.jpg)
+
 
 ## Ethical Implications
 
