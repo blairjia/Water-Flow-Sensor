@@ -116,9 +116,11 @@ void loop ()
 
     display.clearDisplay();
     display.setCursor(0,0);
-    display.print(l_sec); // Print millilitres/second on LCD
+    display.print(l_sec); // Print millilitres/second
     display.setCursor(0,16);
-    display.print(total); // Print total litres consumed on LCD 
+    display.print(total); // Print total millilitres consumed 
+    // display.setCursor(0,32);
+    // display.print(buzzer_counter); // Print current value of buzzer counter
     display.display(); // actually display all of the above
     
     // sends current flow rate and total flow rate
