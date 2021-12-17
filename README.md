@@ -35,7 +35,7 @@ We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to noti
 
 ## Results
 
-(Our Water Sensor in action! Note: for this demonstratation, the buzzer was set to buzz at 10 seconds to speed the demo up, and waste less water.)
+(Our Water Sensor in action! Note: for this demonstratation, the buzzer was set to buzz at 10 seconds to speed the demo up, and waste less water. The buzzer counter is also being displayed on the screen which is not included in the final code.)
 
 https://user-images.githubusercontent.com/86205354/146097687-5dd2280a-e399-45fc-b236-1cf63d566ceb.mp4
 
