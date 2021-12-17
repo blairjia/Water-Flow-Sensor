@@ -69,7 +69,6 @@ This issue comes from an anecdote from Blair. When he was in fourth grade, he wi
 
 ## Schedule
 
-ATTACH SCHEDULE ABOVE...
 
 Schedule:
 | Task Number  | Date Planned | Date Actual|
