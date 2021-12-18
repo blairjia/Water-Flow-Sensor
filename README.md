@@ -1,6 +1,7 @@
 # CS435-FINAL
-Water Flow Sensor Project for Embedded Systems
+Water Flow Sensor Project for Embedded Systems<br/>
 Blair Jia and Zayn Makdessi - Fall 2021
+
 
 ## Introduction
 
@@ -12,6 +13,7 @@ Our project allows users to monitor their water usage of certain faucets, taps, 
 ![IMG_0232](https://user-images.githubusercontent.com/86205354/146097877-82f65eb7-a99e-49b0-80d3-0358b1429acb.jpg)
 
 
+<br/>
 
 ## Methods
 **Adafruit HUZZAH32 – ESP32 Feather Board**\
@@ -30,27 +32,39 @@ ThingSpeak is a platform service that allows you to visualize live data in the c
 We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to notify the user when a certain amount of time has passed with the water on to remind them to not waste water.
 
 
+<br/>
+
 ## Physical Setup
-(Note: The OLED is supposed to sit on top of the feather, however I made it smaller to be able to see the pinout of the feather)
+**Note:** The OLED is supposed to sit on top of the feather, however I made it smaller to be able to see the pinout of the feather)<br/><br/>
 ![Physical Setup](https://user-images.githubusercontent.com/86205404/146622008-cf8efc73-eb63-4947-9f45-d779f774a4bd.jpg)
+
+
+<br/>
 
 ## Results
 
-(Our Water Sensor in action! Note: for this demonstratation, the buzzer was set to buzz at 10 seconds to speed the demo up, and waste less water. The buzzer counter is also being displayed on the screen which is not included in the final code.)
+Our Water Sensor in action!\
+**Note:** For this demonstratation, the buzzer was set to buzz at 10 seconds to speed the demo up, and waste less water. The buzzer counter is also being displayed on the screen which is not included in the final code.
 
 https://user-images.githubusercontent.com/86205354/146097687-5dd2280a-e399-45fc-b236-1cf63d566ceb.mp4
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-<img width="467" alt="Screen Shot 2021-12-17 at 7 55 39 PM" src="https://user-images.githubusercontent.com/86205404/146623589-57ce3cfb-28e8-4b95-a210-0e17acbdc7e0.png">  |  <img width="500" alt="Screen Shot 2021-12-17 at 7 55 09 PM" src="https://user-images.githubusercontent.com/86205404/146623571-dbd617f3-9d70-4e38-bf55-1d92b4891e67.png">
+<br/>
 
+**Note:** Whenever the feather is unplugged then replugged, the data resets to 0.
 
+<p float="left">
+<img width="300" alt="Screen Shot 2021-12-17 at 7 55 39 PM" src="https://user-images.githubusercontent.com/86205404/146623589-57ce3cfb-28e8-4b95-a210-0e17acbdc7e0.png" />
+<img width="638" alt="Screen Shot 2021-12-17 at 7 55 09 PM" src="https://user-images.githubusercontent.com/86205404/146623571-dbd617f3-9d70-4e38-bf55-1d92b4891e67.png" />
+</p>
 
+<br/>
 
-(Calibration of Sensor)
+(Calibration of Sensor) <br/>
 
 <img width="454" alt="Screen Shot 2021-12-12 at 9 00 36 PM" src="https://user-images.githubusercontent.com/86205354/145741704-1919c8fd-9896-4313-b1ed-e85cbe6ba79d.png">
 
+
+<br/>
 
 ## Accessibility
 To start off with our project, we had to make some assumptions to make a bass implementation. Our assumptions include that users have: the mobility to turn on/off the tap/shower/hose/etc, the ability to read, ability to access the internet, ability to access water from pipes, and the ability to have some sort of power source near the flow sensor. Since our implementation, some of our current issues relating to accessibility include the screen size and clarity, and the price.The Featherwing LCD is very convenient to work with our MCU, but it might not be the best in terms of accessibility as the display is rather small, leading to smaller characters getting displayed on the screen, but also the text is only in 1 color. This could lead to some problems with some users who might be visually impaired. The second main issue is price. Although our project parts were actually the cheapest out of all the projects this semester, and somewhere in the ballpark of 70$ USD is very reasonable for a technology such as this one, if we want to implement this system worldwide, we have to make it cheaper, to make it more affordable and hence accessible in poorer parts of the world.
@@ -59,6 +73,8 @@ To start off with our project, we had to make some assumptions to make a bass im
 
 ![IMG_0233](https://user-images.githubusercontent.com/86205354/146097913-d4ffdf30-aef8-45b1-bcf7-df566a45ccc9.jpg)
 
+
+<br/>
 
 ## Ethical Implications
 
@@ -72,8 +88,9 @@ Our project is not very expensive to implement here in the US, nor are the indiv
 This issue comes from an anecdote from Blair. When he was in fourth grade, he witnessed two eighth graders walk up to his school's newly installed water bottle filler machine, brand new with a counter that showed how much water was being used. He watched as these older students place tape over the sensor, to keep the water bottle filler running, just so they could see how high of a score they could get the counter to go. This may be an issue for our project as we have a screen which shows helpful information, INCLUDING a total amount used, and depending on where we implement the system, there could be other immature pranksters who might do the same thing that Blair witnessed. This is problematic because the whole purpose of our implementation was to promote water saving, but this type of action could derail our whole entire project's purpose.
 
 
-## Schedule
+<br/>
 
+## Schedule
 
 Schedule:
 | Task Number  | Date Planned | Date Actual|
@@ -89,6 +106,8 @@ Schedule:
 As you can see above, our plan of attack was very different than what we ended up doing. We had scheduled so checkpoints were weekly set goals to help manage our time. However, as you can see by the actual schedule of when we got our checkpoints complete, the vast majority of the project was done in a week. We think this reflects on just how busy college students are with deadlines, and although we did not follow our schedule timewise or order wise, we still used it as a checkpoint. One of the reasons why we also didn't go in order, was because that for some checkpoints, we would run into some problems, and instead of struggling and not making any progress, we would move on because we realized that a lot of steps were actually independent from each other.   
 
 
+<br/>
+
 ## Issues
 **Flow sensor:**\
 At the beginning of our project, we could not get a reading from our flow sensor. We connected an LED to the voltage divider and saw that current was flowing through the sensor, but we could not manage to get a reading. Eventually after testing for a while, we realized that although the datasheet says that the flow sensor needed 5 Volts minimum to function, we would only get a reading when we gave it 3.3 V and did not use a voltage divider for the output before connecting it to the feather.
@@ -101,6 +120,8 @@ Our OLED was not displaying anything even though we copied the sample code from 
 **Buzzer:**\
 We struggled a lot to get our buzzer working. The main issue was figuring out how to send out a PWM to the buzzer. Eventually we found out that we had to use a bunch of **ledc** functions which made us realize that we cannot change the frequency of the PWM to change the sound.
 
+
+<br/>
 
 ## Future Work
 
@@ -115,6 +136,8 @@ Right now under the free version of Thingspeak, we can only send data every 15 s
 <img width="350" alt="Screen Shot 2021-12-12 at 9 02 31 PM" src="https://user-images.githubusercontent.com/86205354/145741410-2d514011-3fdd-4625-a49f-95572b59b2fb.png">
 
 
+<br/>
+
 ## Far Future
 
 ###### Sustainability Office at Middlebury
@@ -122,12 +145,3 @@ When we brought out the ideas of this project to Professor Vaccari, he suggested
 
 ###### Smart Home
 Another major future goal we had, was to connect with Smart Home devices such as Amazon Alexa or Google Nest to help monitor users' usage across the home, whether that be a sensor on the main water pipe, or several sensors spread out to monitor individiual rooms. We think that it would be a great addition to be able to easily access data to see how the users are doing, but we understand it is a long journey to get third party apps and devices hooked up with these already established devices. A dream of ours would be able ot ask Alexa how much water has the user used in the past day, or the Google Nest displaying warnings or messages of unusual water useage.   
-
-
-
-
-
-
-
-
-
