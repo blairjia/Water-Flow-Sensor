@@ -40,8 +40,11 @@ We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to noti
 
 https://user-images.githubusercontent.com/86205354/146097687-5dd2280a-e399-45fc-b236-1cf63d566ceb.mp4
 
-<img width="467" alt="Screen Shot 2021-12-17 at 7 55 39 PM" src="https://user-images.githubusercontent.com/86205404/146623589-57ce3cfb-28e8-4b95-a210-0e17acbdc7e0.png">
-<img width="500" alt="Screen Shot 2021-12-17 at 7 55 09 PM" src="https://user-images.githubusercontent.com/86205404/146623571-dbd617f3-9d70-4e38-bf55-1d92b4891e67.png">
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+<img width="467" alt="Screen Shot 2021-12-17 at 7 55 39 PM" src="https://user-images.githubusercontent.com/86205404/146623589-57ce3cfb-28e8-4b95-a210-0e17acbdc7e0.png">  |  <img width="500" alt="Screen Shot 2021-12-17 at 7 55 09 PM" src="https://user-images.githubusercontent.com/86205404/146623571-dbd617f3-9d70-4e38-bf55-1d92b4891e67.png">
+
+
 
 
 (Calibration of Sensor)
