@@ -31,7 +31,8 @@ We chose to use the [Piezo Buzzer](https://www.adafruit.com/product/160) to noti
 
 
 ## Physical Setup
-
+(Note: The OLED is supposed to sit on top of the feather, however I made it smaller to be able to see the pinout of the feather)
+![Physical Setup](https://user-images.githubusercontent.com/86205404/146622008-cf8efc73-eb63-4947-9f45-d779f774a4bd.jpg)
 
 ## Results
 
