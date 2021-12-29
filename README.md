@@ -97,10 +97,10 @@ Schedule:
 | ------------- | ------------- | ------------ |
 | 1  | By 11/07/2021  | 11/09/2021 |
 | 2  | By 11/21/2021  | 11/30/2021 |
-| 3  | By 11/25/2021  | 11/01/2021 |
-| 4  | By 11/28/2021  | 11/07/2021 |
-| 5  | By 12/03/2021  | 11/03/2021 |
-| 6  | By 12/10/2021  | 11/05/2021 |
+| 3  | By 11/25/2021  | 12/01/2021 |
+| 4  | By 11/28/2021  | 12/07/2021 |
+| 5  | By 12/03/2021  | 12/03/2021 |
+| 6  | By 12/10/2021  | 12/05/2021 |
 
 
 As you can see above, our plan of attack was very different than what we ended up doing. We had scheduled so checkpoints were weekly set goals to help manage our time. However, as you can see by the actual schedule of when we got our checkpoints complete, the vast majority of the project was done in a week. We think this reflects on just how busy college students are with deadlines, and although we did not follow our schedule timewise or order wise, we still used it as a checkpoint. One of the reasons why we also didn't go in order, was because that for some checkpoints, we would run into some problems, and instead of struggling and not making any progress, we would move on because we realized that a lot of steps were actually independent from each other.   
