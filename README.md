@@ -1,4 +1,4 @@
-# CS435-FINAL
+# Water Flow Monitor
 Water Flow Sensor Project for Embedded Systems<br/>
 Blair Jia and Zayn Makdessi - Fall 2021
 
